@@ -19,7 +19,7 @@ node-exporter:
 
 prom-conf:
     tty: true
-    image: infinityworks/prom-conf:20
+    image: kazgru/prom-conf:latest
     volumes:
       - /etc/prom-conf/
     net: none
