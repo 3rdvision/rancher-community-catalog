@@ -5,7 +5,7 @@ ranch-eye:
     io.rancher.scheduler.global: 'true'
     io.rancher.container.dns: true
   tty: true
-  image: infinityworks/ranch-eye:03
+  image: kazgru/ranch-eye:latest
   stdin_open: true
   net: "host"
 
